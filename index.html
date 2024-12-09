@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anusha PB - Digital Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <h1> <span>Anusha PB</span></h1>
+        <button class="download-btn" onclick="downloadResume()">Download My Resume</button>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am Anusha P B  WRITE HERE ABOUT SELF
+        </p>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li> Java</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C Programing</li>
+            <li>SQL & Databases</li>
+            <li>hibernet and Spring </li>
+        </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>ANDROID WEB APP DEVELOPMENT at Aspire Technnologies Shimoga for one month . </li>
+    <li>JAVA FULL STACK DEVELOPMENT at Friends  union  for energizing lives (FFSI) Hubli. </li>
+<li>PYTHON WITH MACHINE LEARNING at Sirintel Technology Davanagere for one month.</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Portfolio Website:</strong> A personal portfolio website showcasing my work and achievements.
+            </li>
+            <li>
+                <strong>E-commerce Store:</strong> A fully responsive online store with product listings and cart functionality.
+            </li>
+            <li>
+                <strong>Blog Platform:</strong> A blog platform with user authentication, content creation, and commenting features.
+            </li>
+        </ul>
+    </section>
+
+    <script>
+        function downloadResume() {
+            window.location.href = 'AnushaPB_Resume.pdf';
+        }
+    </script>
+</body>
+</html>
